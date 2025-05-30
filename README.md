@@ -76,8 +76,8 @@ CollegeFeeWebApp/
 ### Step 1: Create Database
 
 ```sql
-CREATE DATABASE IF NOT EXISTS college_fee_management;
-USE college_fee_management;
+CREATE DATABASE IF NOT EXISTS college_fees;
+college_fees;
 ```
 
 ### Step 2: Create Table
@@ -97,9 +97,9 @@ CREATE TABLE FeePayments (
 
 ```sql
 INSERT INTO FeePayments (StudentID, StudentName, PaymentDate, Amount, Status) VALUES
-(171, 'Suraj', '2024-04-01', 25000.00, 'Paid'),
-(172, 'Sumanth', '2024-05-15', 15000.00, 'Overdue'),
-(173, 'Rathan', '2024-06-10', 30000.00, 'Paid');
+(171, 'Swaroop', '2024-04-01', 25000.00, 'Paid'),
+(172, 'Dhoni', '2024-05-15', 15000.00, 'Overdue'),
+(173, 'Vinith', '2024-06-10', 30000.00, 'Paid');
 ```
 
 ## 🔧 Installation & Setup
@@ -120,7 +120,7 @@ INSERT INTO FeePayments (StudentID, StudentName, PaymentDate, Amount, Status) VA
 
 ```java
 connection = DriverManager.getConnection(
-    "jdbc:mysql://localhost:3306/college_fee_management",
+    "jdbc:mysql://localhost:3306/college_fees",
     "root",
     ""
 );
