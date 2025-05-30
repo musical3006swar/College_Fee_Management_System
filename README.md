@@ -148,22 +148,22 @@ http://localhost:8080/collegefeemanagement/
 
 ### ➕ Add Fee Payment
 
-<img src="Screenshots/addfee.png" alt="add fee" width="700"/>
+<img src="Screenshots/add_fee_payment.png" alt="add fee" width="700"/>
 
 ### ✏️ Update Payment
 
-<img src="Screenshots/updatefee.png" alt="update fee" width="700"/>
+<img src="Screenshots/update_fee_payment.png" alt="update fee" width="700"/>
 
 ### ❌ Delete Record
 
-<img src="Screenshots/deletefee.png" alt="delete fee" width="700"/>
+<img src="Screenshots/delete_fee_payment.png" alt="delete fee" width="700"/>
 
 ### 🆕 Display Payments
 
-<img src="Screenshots/displayfee.png" alt="display fee" width="700"/>
+<img src="Screenshots/view_all_payments.png" alt="display fee" width="700"/>
 
 ### 📊 Generate Report
 
-<img src="Screenshots/generate_report.png" alt="generate report" width="700"/>
+<img src="Screenshots/fee_payment_report.png" alt="generate report" width="700"/>
 
-<img src="Screenshots/generate_report1.png" alt="generate report" width="700"/>
+<img src="Screenshots/fee_payment_report.png" alt="generate report" width="700"/>
